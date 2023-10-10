@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/*---------------------> NAVBAR <---------------------*/
+
+.logo {
+  text-align: center;
+}
+
+.secondNavText {
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.navText {
+  font-family: 'Alata', sans-serif;
+}
+
+
+/*---------------------> HOMEPAGE <---------------------*/
+
+.secondaryNav,  .mainNav {
+  background-color: #afd3b6;
+}
+
+#about-row {
+  width: 85%;
+
+}
+
+.cards-about {
+  background-color: #d5dacb;
+  color: #000000;
+}
+
+.div-about {
+  background-color: #afd3b6;
+  justify-content: center;
+}
+
+.div-footer {
+  background-color: #212529;
+}
+
+.logo {
+  color: white;
+  font-size: 1.4rem;
+  align-items: center;
+}
+
+.about-header {
+  font-family: 'Alata', sans-serif;
+  margin-bottom: 12px;
+}
+
+.text-about {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dropping-header {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.dropping-text{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/*---------------------> PAGE HEADERS <---------------------*/
+
+.page-header {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+
+/*---------------------> DASHBOARDS/LOGINS/REG <---------------------*/
+.dash-text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.modal-title {
+  font-family: 'Rajdhani', sans-serif;
+  font-style: italic;
+}
+
+
+/*---------------------> BUTTONS <---------------------*/
+
+
+/*---------------------> CATALOG <---------------------*/
+
+.catalog {
+  background-color: #13161a;
+}
+
+.cards {
+  background-color: #303644;
+  color: #e1e0de;
+}
+
+.cards, .shoe-text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-btn {
+  color: red;
+}
+
+#check-btn {
+  background-color: #4CAF50;
+  width: 100%;
+}
+
+/*---------------------> ADMIN <---------------------*/
+
+.width {
+  height: 75px;
+}
+
+.width1 {
+  width: 18%;
+  vertical-align: middle;
+}
+
+.width2 {
+  width: 42%;
+  vertical-align: middle;
+}
+
+.width3 {
+  width: 10%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.width4 {
+  width: 10%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.width5 {
+  width: 20%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* ---------------------> ERROR <---------------------*/
+
+#error {
+  animation: fadeInFromTop .5s linear forwards, floating ease 3.5s infinite;
+}
+
+@keyframes fadeInFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/*---------------------> OTHERS <---------------------*/
+
+@keyframes floating {
+  0% {
+    transform: translate(0%, 0%) rotate(360deg);
+  }
+  25% {
+    transform: translate(0%, 5%) rotate(360deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(360deg);
+  }
+  75% {
+    transform: translate(0%, 5%) rotate(360deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg);
+  }
+}
