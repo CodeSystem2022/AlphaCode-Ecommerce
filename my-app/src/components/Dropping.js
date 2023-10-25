@@ -92,18 +92,23 @@ export default function Dropping(){
 			          <small className="dropping-text text-muted">Converse</small>
 			        </Card.Footer>
 			      </Card>
-						  <Card>
-			        <Card.Img variant="top" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw537acc6a/products/NI_DH3158-100/NI_DH3158-100-1.JPG" />
+
+				  </CardGroup>
+
+			    <CardGroup className="mt-3">
+
+			      <Card>
+				   <Card.Img variant="top" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw537acc6a/products/NI_DH3158-100/NI_DH3158-100-1.JPG" />
 			        <Card.Body>
-			          <Card.Title className="dropping-text text-center">Court Vision </Card.Title>
+			          <Card.Title className="dropping-text text-center">Court Vision</Card.Title>
 			        </Card.Body>
 			        <Card.Footer>
 			          <small className="dropping-text text-muted">Nike</small>
 			        </Card.Footer>
 			      </Card>
 
-			      <Card>
-			        <Card.Img variant="top" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwd6cf7ccb/products/NI_CW4555-002/NI_CW4555-002-1.JPG" />
+			       <Card>
+				    <Card.Img variant="top" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwd6cf7ccb/products/NI_CW4555-002/NI_CW4555-002-1.JPG" />
 			        <Card.Body>
 			          <Card.Title className="dropping-text text-center">Air Max Sc</Card.Title>
 			        </Card.Body>
@@ -112,8 +117,8 @@ export default function Dropping(){
 			        </Card.Footer>
 			      </Card>
 
-				  <Card>
-			        <Card.Img variant="top" src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/24750e81-85ed-4b0e-8cd8-becf0cd97b2f/calzado-air-jordan-1-mid-BVgBmq.png" />
+			       <Card>
+				    <Card.Img variant="top" src="https://images.stockx.com/images/Air-Jordan-1-Mid-Ice-Blue-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1678483899" />
 			        <Card.Body>
 			          <Card.Title className="dropping-text text-center">Air Jordan 1 Mid</Card.Title>
 			        </Card.Body>
@@ -122,8 +127,8 @@ export default function Dropping(){
 			        </Card.Footer>
 			      </Card>
 
-				  <Card>
-			        <Card.Img variant="top" src="https://nikearprod.vtexassets.com/arquivos/ids/628235-800-800?v=638210578990930000&width=800&height=800&aspect=true" />
+			       <Card>
+				    <Card.Img variant="top" src="https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw3ae62e5d/products/NIDV0789-100/NIDV0789-100-1.JPG" />
 			        <Card.Body>
 			          <Card.Title className="dropping-text text-center">Air Force 1</Card.Title>
 			        </Card.Body>
@@ -131,68 +136,96 @@ export default function Dropping(){
 			          <small className="dropping-text text-muted">Nike</small>
 			        </Card.Footer>
 			      </Card>
+				  <CardGroup className="mt-3">
 
-				  <Card>
-			        <Card.Img variant="top" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/93ca90bff2984e27a8b0ae2b0050402f_9366/Zapatillas_adidas_Grand_Court_TD_Negro_GW9251_01_standard.jpg" />
-			        <Card.Body>
-			          <Card.Title className="dropping-text text-center">Grand Court TD</Card.Title>
-			        </Card.Body>
-			        <Card.Footer>
-			          <small className="dropping-text text-muted">Adidas</small>
-			        </Card.Footer>
-			      </Card>
+				   <Card>
+				   <Card.Img variant="top" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/93ca90bff2984e27a8b0ae2b0050402f_9366/Zapatillas_adidas_Grand_Court_TD_Negro_GW9251_01_standard.jpg" />
+				<Card.Body>
+					<Card.Title className="dropping-text text-center">Grand Court TD</Card.Title>
+				</Card.Body>
+				<Card.Footer>
+					<small className="dropping-text text-muted">Adidas</small>
+				</Card.Footer>
+				</Card>
 
-				  <Card>
-			        <Card.Img variant="top" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/c35214f6104c4a288bfed0c7c88dd94c_9366/Zapatillas_Superstar_XLG_Blanco_IF9995_01_standard.jpg" />
-			        <Card.Body>
-			          <Card.Title className="dropping-text text-center">Superstar</Card.Title>
-			        </Card.Body>
-			        <Card.Footer>
-			          <small className="dropping-text text-muted">Adidas</small>
-			        </Card.Footer>
-			      </Card>
+				<Card>
+				<Card.Img variant="top" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/c35214f6104c4a288bfed0c7c88dd94c_9366/Zapatillas_Superstar_XLG_Blanco_IF9995_01_standard.jpg" />
+				<Card.Body>
+					<Card.Title className="dropping-text text-center">Superstar</Card.Title>
+				</Card.Body>
+				<Card.Footer>
+					<small className="dropping-text text-muted">Adidas</small>
+				</Card.Footer>
+				</Card>
 
-				  <Card>
-			        <Card.Img variant="top" src="https://essential.vtexassets.com/arquivos/ids/985525-800-auto?v=638270509787570000&width=800&height=auto&aspect=true" />
-			        <Card.Body>
-			          <Card.Title className="dropping-text text-center">Forum Low</Card.Title>
-			        </Card.Body>
-			        <Card.Footer>
-			          <small className="dropping-text text-muted">Adidas</small>
-			        </Card.Footer>
-			      </Card>
+				<Card>
+				<Card.Img variant="top" src="https://chelseaio.vtexassets.com/arquivos/ids/434068-1600-auto?v=638291616243330000&width=1600&height=auto&aspect=true" />
+				<Card.Body>
+					<Card.Title className="dropping-text text-center">Forum Low</Card.Title>
+				</Card.Body>
+				<Card.Footer>
+					<small className="dropping-text text-muted">Adidas</small>
+				</Card.Footer>
+				</Card>
 
-				  <Card>
-			        <Card.Img variant="top" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/6606b627c5ea40188a1bae2a018843db_9366/Zapatillas_Supernova_2.0_Negro_GW9088_01_standard.jpg" />
-			        <Card.Body>
-			          <Card.Title className="dropping-text text-center">Supernova 2.0</Card.Title>
-			        </Card.Body>
-			        <Card.Footer>
-			          <small className="dropping-text text-muted">Adidas</small>
-			        </Card.Footer>
-			      </Card>
+				<Card>
+				<Card.Img variant="top" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/6606b627c5ea40188a1bae2a018843db_9366/Zapatillas_Supernova_2.0_Negro_GW9088_01_standard.jpg" />
+				<Card.Body>
+					<Card.Title className="dropping-text text-center">Supernova 2.0</Card.Title>
+				</Card.Body>
+				<Card.Footer>
+					<small className="dropping-text text-muted">Adidas</small>
+					</Card.Footer>
+				</Card>
 
-				  <Card>
-			        <Card.Img variant="top" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/fa2487dc7b6047089e36af5c00bb966b_9366/Zapatillas_Avryn_Negro_HP5969_01_standard.jpg" />
-			        <Card.Body>
-			          <Card.Title className="dropping-text text-center">Avryn</Card.Title>
-			        </Card.Body>
-			        <Card.Footer>
-			          <small className="dropping-text text-muted">Adidas</small>
-			        </Card.Footer>
-			      </Card>
+				</CardGroup>
+				
+				<CardGroup className="mt-3">
 
-				  <Card>
-			        <Card.Img variant="top" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/4199ec991d0b48b4b9a7af3400db3fb8_9366/Zapatillas_adidas_DNA_x_LEGOr_Tira_Ajustable_Amarillo_HQ1310_01_standard.jpg" />
-			        <Card.Body>
-			          <Card.Title className="dropping-text text-center">DNA X Lego</Card.Title>
-			        </Card.Body>
-			        <Card.Footer>
-			          <small className="dropping-text text-muted">Adidas</small>
-			        </Card.Footer>
-			      </Card>
-			      
-			    </CardGroup>
+				   <Card>
+				   <Card.Img variant="top" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/fa2487dc7b6047089e36af5c00bb966b_9366/Zapatillas_Avryn_Negro_HP5969_01_standard.jpg" />
+				<Card.Body>
+					<Card.Title className="dropping-text text-center">Avryn</Card.Title>
+				</Card.Body>
+				<Card.Footer>
+					<small className="dropping-text text-muted">Adidas</small>
+				</Card.Footer>
+				</Card>
+
+				<Card>
+				<Card.Img variant="top" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/4199ec991d0b48b4b9a7af3400db3fb8_9366/Zapatillas_adidas_DNA_x_LEGOr_Tira_Ajustable_Amarillo_HQ1310_01_standard.jpg" />
+				<Card.Body>
+					<Card.Title className="dropping-text text-center">DNA X Lego</Card.Title>
+				</Card.Body>
+				<Card.Footer>
+					<small className="dropping-text text-muted">Adidas</small>
+				</Card.Footer>
+				</Card>
+
+				<Card>
+				<Card.Img variant="top" src="https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw82d35fd2/products/NIDJ5423-100/NIDJ5423-100-1.JPG" />
+				<Card.Body>
+					<Card.Title className="dropping-text text-center">Lebron Xx</Card.Title>
+				</Card.Body>
+				<Card.Footer>
+					<small className="dropping-text text-muted">Nike</small>
+				</Card.Footer>
+				</Card>
+
+				<Card>
+				<Card.Img variant="top" src="https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwbb1a3c5b/products/NIDJ5423-003/NIDJ5423-003-1.JPG" />
+				<Card.Body>
+					<Card.Title className="dropping-text text-center">Nike Lebron 2.0</Card.Title>
+				</Card.Body>
+				<Card.Footer>
+					<small className="dropping-text text-muted">Nike</small>
+					</Card.Footer>
+				</Card>
+
+				</CardGroup>
+				
+				</CardGroup>
+				
 
 			</Container>
 		</div>
