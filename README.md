@@ -20,6 +20,5 @@ Eric Maturano
 
 Santiago Bordón
 
-Avances del proyecto:
 
-![Uploading Captura de pantalla 2023-10-27 081433.png…]()
+
