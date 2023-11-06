@@ -105,7 +105,7 @@ export default function Login(){
 		:
 
 		<Container className="mt-5 w-50">
-		<h1 className="page-header">Login Here</h1>
+		<h1 className="page-header">Inicia sesión</h1>
 
 		<Form className="dash-text" onSubmit={e => loginUser(e)}>
 
@@ -113,7 +113,7 @@ export default function Login(){
 			<Form.Label>Email:</Form.Label>
 			<Form.Control
 				type = "email"
-				placeholder = "Enter email"
+				placeholder = "Ingresa tu email"
 				required
 				value={email}
 				onChange={e => setEmail(e.target.value)}
@@ -124,24 +124,24 @@ export default function Login(){
 			<Form.Label>Password:</Form.Label>
 			<Form.Control
 				type = "password"
-				placeholder = "Enter password"
+				placeholder = "Ingresa tu contraseña"
 				required
 				value={password}
 				onChange={e => setPassword(e.target.value)}
 			/>
 		</Form.Group>
 
-		<p className="mt-3">Not yet registered? <Link to="/register">Register here!</Link></p>
+		<p className="mt-3">Aún no estás registrado? <Link to="/register">Registrate aquí!</Link></p>
 
 		{ isActive?
 
 		<Button variant="success" type="submit" id="submitBtn" className="mt-1 mb-5">
-				Login
+				Iniciar sesión
 		</Button>
 
 		  :
 		<Button variant="danger" type="submit" id="submitBtn" className="mt-1 mb-5" disabled>
-				Login
+				Iniciar sesión
 		</Button>  
 		  
 		}
