@@ -109,25 +109,25 @@ export default function Register(){
 		:
 
 		<Container className="mt-5 w-50">
-		<h1 className="page-header">Join the community!</h1>
+		<h1 className="page-header">Ingresa en Alpha SneakIn!</h1>
 		<Form className="dash-text" onSubmit={e => registerUser(e)}>
 
 		<Form.Group controlId="firstName" className="my-2">
-			<Form.Label>First Name:</Form.Label>
+			<Form.Label>Nombre:</Form.Label>
 			<Form.Control
 				type = "text"
-				placeholder = "Please input your first name here."
+				placeholder = "Coloca tu nombre aquí."
 				required
 				value={firstName}
 				onChange={e => setFirstName(e.target.value)}
 			/>
 		</Form.Group>
 
-		<Form.Group controlId="lastName" className="my-2">
-			<Form.Label>Last Name:</Form.Label>
+		<Form.Group controlId="Apellido" className="my-2">
+			<Form.Label>Apellido:</Form.Label>
 			<Form.Control
 				type = "text"
-				placeholder = "Please input your kast name here."
+				placeholder = "Coloca tu apellido aquí."
 				required
 				value={lastName}
 				onChange={e => setLastName(e.target.value)}
@@ -135,10 +135,10 @@ export default function Register(){
 		</Form.Group>
 
 		<Form.Group controlId="password" className="my-2">
-			<Form.Label>Password:</Form.Label>
+			<Form.Label>Contraseña:</Form.Label>
 			<Form.Control
 				type = "password"
-				placeholder = "Please input your password here."
+				placeholder = "Escribe tu contraseña aquí."
 				required
 				value={password}
 				onChange={e => setPassword(e.target.value)}
@@ -146,10 +146,10 @@ export default function Register(){
 		</Form.Group>
 
 		<Form.Group controlId="confirmPassword" className="my-2">
-			<Form.Label>Confirm Password:</Form.Label>
+			<Form.Label>Confirma tu contraseña:</Form.Label>
 			<Form.Control
 				type = "password"
-				placeholder = "Please input your password here."
+				placeholder = "Por favor confirma tu contraseña aquí."
 				required
 				value={confirmPassword}
 				onChange={e => setConfirmPassword(e.target.value)}
@@ -157,10 +157,10 @@ export default function Register(){
 		</Form.Group>
 
 		<Form.Group controlId="email" className="my-2">
-			<Form.Label>Email Address:</Form.Label>
+			<Form.Label>Email:</Form.Label>
 			<Form.Control
 				type = "email"
-				placeholder = "Please input your email here."
+				placeholder = "Coloca tu email aquí."
 				required
 				value={email}
 				onChange={e => setEmail(e.target.value)}
@@ -168,10 +168,10 @@ export default function Register(){
 		</Form.Group>
 
 		<Form.Group controlId="mobileNo" className="my-2">
-			<Form.Label>Mobile Number:</Form.Label>
+			<Form.Label>Número de teléfono:</Form.Label>
 			<Form.Control
 				type = "text"
-				placeholder = "Please input your 11-digit mobile number here."
+				placeholder = "Coloca tu número de teléfono aquí."
 				required
 				value={mobileNo}
 				onChange={e => setMobileNo(e.target.value)}
@@ -181,13 +181,13 @@ export default function Register(){
 		{ isActive?
 
 		<Button variant="success" type="submit" id="submitBtn" className="mt-3 mb-5">
-				Register
+				Regístrate
 		</Button>
 
 		  :
 
 		<Button variant="danger" type="submit" id="submitBtn" className="mt-3 mb-5" disabled>
-				Register
+				Regístrate
 		</Button>  
 		  
 		}
