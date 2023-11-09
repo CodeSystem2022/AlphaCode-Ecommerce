@@ -24,6 +24,7 @@ Santiago Bordón
 Para poder usar nuestro e-commerce pueden ejecutarlo con los siguientes comandos:
 
 npm install
+
 Luego de instalar todos los paquetes:
 
 npm start
